@@ -1,0 +1,23 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 970px;
+    max-width: 1440px;
+}
+
+.header {
+    order: -1;
+}
+
+.main-content {
+    flex: 1 1 auto;
+    order: 2;
+}
+
+.footer {
+    flex: 0 0 auto;
+    order: 3;
+}
